@@ -4,7 +4,7 @@
     --primary: rgba(104, 155, 232, 0.6);
     --secondary: rgba(26, 95, 215, 0.6); 
     --buttonHover: rgba(5, 37, 106, 0.4);
-    --smallButtonHover: rgba(0, 0, 0, .25);
+    --smallButtonHover: rgba(24, 8, 107, 0.25);
 }
 
 html {
@@ -34,9 +34,9 @@ body {
     background-attachment: fixed;
     /* Resizes the background image to cover the entire container */
     background-size: cover;
-    font-family: Futura, Verdana, sans-serif;
+    font-family: "Caveat", cursive;
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 23px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
