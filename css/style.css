@@ -26,7 +26,7 @@ body {
     min-height: 100%;
     /* The image used for the site background. Try changing skyscape.jpg to stars.jpg. Put a replacement photo in the images folder and, in line 21 below, replace skyscape.jpg with yourbackgroundfilename.jpg */
     /* The linear gradient darkens the image, like putting a sunglasses lens on top of it. If you want to darken the image even more, change 0.1 (both times) to 0.3 or higher */
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/BG2.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/BG.png);
     /* Prevents the browser from repeating or "tiling" the background image */
     background-repeat: no-repeat;
     background-position: left center;
@@ -34,9 +34,10 @@ body {
     background-attachment: fixed;
     /* Resizes the background image to cover the entire container */
     background-size: cover;
-    font-family: "Caveat", cursive;
+    font-family: "Shalimar", cursive;
     line-height: 1.5;
-    font-size: 23px;
+    font-size: 33px;
+    font-weight: 900;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -45,11 +46,13 @@ body {
 
 h1 {
     font-size: 1em;
+    font-weight: 900;
 }
 
 h2 {
     font-size: 1em;
     margin-bottom: 0;
+    font-weight: 900;
 }
 
 img {
